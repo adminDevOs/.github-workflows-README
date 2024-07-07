@@ -1,0 +1,8 @@
+
+---
+- name: Exemple de Playbook
+  hosts: localhost
+  tasks:
+    - name: Afficher un message
+      debug:
+        msg: "Hello, World!"
